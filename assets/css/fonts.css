@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: "aktiv_grotesk_thai_bold";
+    src: url('../fonts/Aktiv_Grotesk_Thai_Bold.otf');
+}
+@font-face {
+    font-family: "aktiv_grotesk_thai_medium";
+    src: url('../fonts/Aktiv_Grotesk_Thai_Medium.otf');
+}
+@font-face {
+    font-family: "aktiv_grotesk_thai";
+    src: url('../fonts/Aktiv_Grotesk_Thai.otf');
+}
+@font-face {
+    font-family: "aktiv_grotesk_thai_light";
+    src: url('../fonts/Aktiv_Grotesk_Thai_Light.otf');
+}
+
+
+@font-face {
+    font-family: "poppins-bold";
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: "poppins-semiBold";
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: "poppins-regular";
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: "poppins-medium";
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: "poppins-light";
+    src: url('../fonts/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: "poppins-thin";
+    src: url('../fonts/Poppins-Thin.ttf');
+}
+@font-face {
+    font-family: "kanit-regular";
+    src: url('../fonts/Kanit-Regular.ttf');
+}
+

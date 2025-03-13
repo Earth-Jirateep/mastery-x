@@ -1,0 +1,84 @@
+*, *::before, *::after{
+    box-sizing: border-box; 
+}
+* {
+    margin: 0; 
+    padding: 0; 
+}
+html, body {
+    overflow-x: hidden;
+}
+ul[role='list'], ol[role='list'] {
+    list-style: none; 
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+   
+}
+body, html{
+    scroll-behavior: smooth;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1 , h2 ,h3 ,h4 ,h5 ,h6 {
+    font-weight: inherit;
+}
+html:focus-within{
+    scroll-behavior: smooth; 
+}
+a:not([class]){
+    text-decoration-skip-ink: none; 
+    text-decoration: none;
+}
+img, picture, svg, video, canvas{
+    max-width: 100%;
+    height: auto;
+}
+img, picture, svg, video, canvas{
+    vertical-align: middle; 
+}
+img, picture, svg, video, canvas{
+    font-style: italic; 
+}
+img, picture, svg, video, canvas{
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+input, button, textarea, select{
+    font: inherit; 
+}
+.nav-mobile {
+    display: none;
+}
+div {
+    height: max-content;
+}
+
+section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+}
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+        transition: none;
+    }
+}

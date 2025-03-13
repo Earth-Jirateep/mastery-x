@@ -1,0 +1,128 @@
+.section-thank-you {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../images/thank-you/thankyou-background.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 258px;
+}
+.section-thank-you-wrapper  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1060px;
+}
+.section-thank-you-logo {
+    width: 568px;
+    height: 142px;
+    margin-bottom: 62px;
+}
+.section-thank-you-header-box {
+    display: flex;
+    margin-bottom: 34px;
+}
+.section-thank-you-header {
+    font-family: "poppins-bold";
+    font-size: 110px;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    background: linear-gradient(101deg, #FFF 56.61%, rgba(255, 255, 255, 0.00) 126.53%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-thank-you-paragraph-box {
+    display: flex;
+}
+.section-thank-you-paragraph {
+    font-family: "poppins-light";
+    font-size: 34px;
+    line-height: 1.4;
+    background: linear-gradient(101deg, #FFF 53.54%, rgba(255, 255, 255, 0.00) 118.16%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+@media screen and (min-width: 1921px) {
+    .section-thank-you {
+        width: 100vw;
+        height: 56.25vw;
+        padding-top: 13.438vw;
+    }
+    .section-thank-you-wrapper  {
+        width: 55.208vw;
+    }
+    .section-thank-you-logo {
+        width: 29.583vw;
+        height: 7.396vw;
+        margin-bottom: 3.229vw;
+    }
+    .section-thank-you-header-box {
+        margin-bottom: 1.771vw;
+    }
+    .section-thank-you-header {
+        font-size: 5.729vw;
+    }
+    .section-thank-you-paragraph {
+        font-size: 1.771vw;
+    }
+}
+
+@media screen and (max-width: 1919px) {
+    .section-thank-you {
+        width: 100vw;
+        height: 56.25vw;
+        padding-top: 13.438vw;
+    }
+    .section-thank-you-wrapper  {
+        width: 55.208vw;
+    }
+    .section-thank-you-logo {
+        width: 29.583vw;
+        height: 7.396vw;
+        margin-bottom: 3.229vw;
+    }
+    .section-thank-you-header-box {
+        margin-bottom: 1.771vw;
+    }
+    .section-thank-you-header {
+        font-size: 5.729vw;
+    }
+    .section-thank-you-paragraph {
+        font-size: 1.771vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-thank-you {
+        width: 100vw;
+        height: 214.419vw;
+        padding-top: 58.791vw;
+        background-image: url(../images/thank-you/thankyou-background-m.png);
+        background-size: cover;
+    }
+    .section-thank-you-wrapper  {
+        width: 100%;
+    }
+    .section-thank-you-logo {
+        width: 60vw;
+        height: 16.279vw;
+        margin-bottom: 10.233vw;
+    }
+    .section-thank-you-header-box {
+        margin-bottom: 6.977vw;
+    }
+    .section-thank-you-header {
+        font-size: 13.488vw;
+    }
+    .section-thank-you-paragraph {
+        font-size: 4.651vw;
+        line-height: 1.6;
+    }
+}
